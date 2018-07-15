@@ -11,3 +11,8 @@ def main():
     a = 'sdgn_ksmdf_sdkg_dfsgm_sdgm_'
     get_index(string=a, character='_')
 ```
+
+2 获取一个list中某个值的索引，包括相同元素
+```
+[i for i in range(len(mylist)) if mylist[i]==(A,3)]
+```
